@@ -5,7 +5,11 @@ uva online and euler programming problems solved by me
 ##**UVA**
 
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+  Problem ID  | Problem Name
+  :------------- | :-------------:
+  100  | The 3n + 1 problem
+  10252  | Common Permutation
+
+
+##**Euler**
+
