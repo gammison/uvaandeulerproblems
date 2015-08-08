@@ -1,8 +1,8 @@
-#uvaandeulerproblems
+#UVA and Euler Problems
 uva online and euler programming problems solved by me
 
-#Current Solved Problems
-##**UVA**
+##Current Solved Problems
+###**UVA**
 
 
   Problem ID  | Problem Name
@@ -11,5 +11,11 @@ uva online and euler programming problems solved by me
   10252  | Common Permutation
 
 
-##**Euler**
+###**Euler**
 
+  Problem ID  | Problem Name
+  :------------- | :-------------:
+  1  | Multiples of 3 and 5
+  2  | Even Fibonacci
+  3  | Largest Prime Factor
+  4  | Largest Palindrome Project
