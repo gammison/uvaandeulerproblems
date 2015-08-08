@@ -2,7 +2,7 @@
 uva online and euler programming problems solved by me
 #Current Solved:
   **UVA:**
-  Prob ID	Prob Name
+  Prob ID	Prob Name &nbsp;
   100		The 3n + 1 problem
   10252		Common Permutation
   
