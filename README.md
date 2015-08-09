@@ -22,3 +22,4 @@ uva online and euler programming problems solved by me
   5  | Smallest Multiple
   6  | Sum Square Difference
   7  | 10001st Prime Number
+  8  | Adjacent Digits
