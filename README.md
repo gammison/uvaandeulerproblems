@@ -20,3 +20,4 @@ uva online and euler programming problems solved by me
   3  | Largest Prime Factor
   4  | Largest Palindrome Project
   5  | Smallest Multiple
+  6  | Sum Square Difference
