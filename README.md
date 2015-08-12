@@ -1,5 +1,5 @@
 #UVA and Euler Problems
-uva online and euler programming problems solved by me
+uva online judge and project euler programming problems solved by me
 
 ##Current Solved Problems
 ###**UVA**
@@ -23,3 +23,4 @@ uva online and euler programming problems solved by me
   6  | Sum Square Difference
   7  | 10001st Prime Number
   8  | Adjacent Digits
+  9  | Pythagorean Triples
