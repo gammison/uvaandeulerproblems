@@ -24,3 +24,4 @@ uva online judge and project euler programming problems solved by me
   7  | 10001st Prime Number
   8  | Adjacent Digits
   9  | Pythagorean Triples
+  10 | Summation of Primes
