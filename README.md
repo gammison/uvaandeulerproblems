@@ -9,6 +9,7 @@ uva online judge and project euler programming problems solved by me
   :------------- | :-------------:
   100  | The 3n + 1 problem
   10252  | Common Permutation
+  10611 | [The Playboy Chimp](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
 
 
 ###**Euler**
