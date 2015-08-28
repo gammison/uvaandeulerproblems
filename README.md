@@ -7,8 +7,10 @@ uva online judge and project euler programming problems solved by me
 
   Problem ID  | Problem Name
   :------------- | :-------------:
-  100  | The 3n + 1 problem
-  10252  | Common Permutation
+  100  | [The 3n + 1 problem](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36)
+  10252  | [Common Permutation](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193)
+  10611 | [The Playboy Chimp](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
+  11172 | [Relational Operators](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2113)
 
 
 
@@ -16,13 +18,13 @@ uva online judge and project euler programming problems solved by me
 
   Problem ID  | Problem Name
   :------------- | :-------------:
-  1  | Multiples of 3 and 5
-  2  | Even Fibonacci Numbers
-  3  | Largest Prime Factor
-  4  | Largest Palindrome Project
-  5  | Smallest Multiple
-  6  | Sum Square Difference
-  7  | 10001st Prime Number
-  8  | Adjacent Digits
-  9  | Pythagorean Triples
-  10 | Summation of Primes
+  1  | [Multiples of 3 and 5](https://projecteuler.net/problem=1)
+  2  | [Even Fibonacci Numbers](https://projecteuler.net/problem=2)
+  3  | [Largest Prime Factor](https://projecteuler.net/problem=3)
+  4  | [Largest Palindrome Project](https://projecteuler.net/problem=4)
+  5  | [Smallest Multiple](https://projecteuler.net/problem=5)
+  6  | [Sum Square Difference](https://projecteuler.net/problem=6)
+  7  | [10001st Prime Number](https://projecteuler.net/problem=7)
+  8  | [Adjacent Digits](https://projecteuler.net/problem=8)
+  9  | [Pythagorean Triples](https://projecteuler.net/problem=9)
+  10 | [Summation of Primes](https://projecteuler.net/problem=10)
