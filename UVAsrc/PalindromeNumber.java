@@ -2,7 +2,7 @@
 import java.util.*;
 import static java.lang.System.*;
 
-public class PalindromeNumber {
+public class PalindromeNumbers {
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
@@ -12,20 +12,39 @@ public class PalindromeNumber {
 			
 			int index = in.nextInt();
 			if(index == 0)
-				break;
+			{	break;
+			
+			}
 			
 			int lowerbound = 0;
 			int pl10 = 0;
-			
-			while(index > pslessn(pl10))
-			{
+			int startn = 0;
+			int startcount = 0;
+			int stat = pslessn(pl10);
+			while(index > stat)
+			{	
 				pl10++;
-				if(index<pslessn(pl10)){
-					pl10--; break;
+				stat = pslessn(pl10);
+				if(index<stat){
+					pl10--; startn = (int)Math.pow(10, pl10); startcount = stat; break;
 				}
 				
 			}
-			out.println(pslessn(pl10));
+			 if(index < 10){
+					startn = 0; startcount = 1;
+				}
+			
+			while(startcount != index)
+			{
+				if(startn == revdig(startn))
+				{	
+					startcount++;
+				}
+				startn++;
+			}
+			out.println(startn);
+			
+			
 		}
 	}
 	
@@ -47,5 +66,20 @@ public class PalindromeNumber {
 		}
 		else
 			return (int)(11 * Math.pow(10, (pw10-1)/2) - 2);
+	}
+	
+	public static int revdig(int num)
+	{
+		int tempn = 0;
+		while(num>0)
+		{
+			tempn *= 10;
+			tempn+= num%10;
+			num/=10;
+		}
+		
+		
+		
+		return tempn;
 	}
 }
