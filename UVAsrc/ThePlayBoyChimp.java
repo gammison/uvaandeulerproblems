@@ -15,11 +15,11 @@ public class ThePlayBoyChimp {
 				ladychimpheights[a] = in.nextInt();
 			}
 			int luchuheight = in.nextInt();
-			int[] luchuheights = new int[luchuheight];
+			//int[] luchuheights = new int[luchuheight];
 			
-			for(int i2 : luchuheights)
+			for(int a = 0; a<luchuheight; a++)
 			{
-				i2 = in.nextInt();
+				int i2 = in.nextInt();
 				
 			
 				int ladymin = Integer.MAX_VALUE;
