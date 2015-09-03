@@ -6,22 +6,23 @@ public class ReverseAndAdd {
 	{
 		Scanner in = new Scanner(System.in);
 	
-		int n = in.nextInt();
-		for(int i = 0; i<n; i++)
+		long n = in.nextLong();
+		for(long i = 0; i<n; i++)
 		{
-			int rev = in.nextInt();
-			int snum = 0;
-			do 
+			long rev = in.nextInt();
+			long snum = 0;
+			
+			while(!pdrome(rev))
 			{
-			snum++;
-			rev += reve(rev); 
-			}while(!pdrome(rev));
+				snum++;
+				rev += reve(rev); 
+			}
 			out.println(snum + " "+rev);
 		}
 		
 	}
 	
-	public static int reve(int rev)
+	public static long reve(long rev)
 	{	int newnum = 0;
 		while(rev>0)
 		{	newnum *= 10;
@@ -32,7 +33,7 @@ public class ReverseAndAdd {
 		
 		return newnum;
 	}
-	public static boolean pdrome(int rev)
+	public static boolean pdrome(long rev)
 	{
 		  long len = (int) Math.ceil(Math.log10(rev+1));
 		    for (long n = 0; n < len / 2; n++)
