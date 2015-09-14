@@ -1,0 +1,53 @@
+//author gammison 
+import java.util.*;
+import static java.lang.System.*;
+public class HowManyFibs {
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		long lowerbound = -1;
+		long upperbound = -1;
+		while(in.hasNext())
+		{
+			lowerbound = in.nextLong();
+			upperbound = in.nextLong();
+			
+			if(lowerbound == 0 || upperbound == 0)
+				break;
+			
+			long fibcounter;
+			out.println(startfib(0,lowerbound,upperbound,1,1,0,0));
+			
+		}
+	}
+	
+	public static long startfib(long truecount,long stcount, long stpcount, long currcount,long currentfib,long prev1, long prev2 )
+	{	
+		if(currcount < 2)
+		{	currcount++;
+			currentfib = 1;
+			prev1 = 1;
+			prev2 = 1;
+		}
+		if(currcount>=2)
+		{
+			currcount++;
+			long tprev1 = currentfib;
+			currentfib=prev1+prev2;
+			prev1= currentfib;
+			prev2 = tprev1;
+		}
+		if(currentfib>=stcount && currentfib<=stpcount)
+		{
+			truecount++;
+		}
+		if(currentfib>=stpcount)
+		{
+			return truecount;
+		}
+		
+		else
+			return startfib(truecount,stcount,stpcount,currcount,currentfib,prev1,prev2);
+		
+	}
+}
