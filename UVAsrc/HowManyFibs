@@ -1,47 +1,52 @@
 //author gammison 
+import java.math.BigInteger;
 import java.util.*;
 import static java.lang.System.*;
+
 public class HowManyFibs {
 	public static void main(String[] args) 
 	{
 		Scanner in = new Scanner(System.in);
-		long lowerbound = -1;
-		long upperbound = -1;
-		while(in.hasNext())
+		BigInteger lowerbound = new BigInteger(String.valueOf(-1));
+		BigInteger upperbound = new BigInteger(String.valueOf(-1));
+		
+		lowerbound = BigInteger.valueOf(in.nextLong());
+		upperbound = BigInteger.valueOf(in.nextLong());
+		
+		while(!(lowerbound.compareTo(BigInteger.ZERO)==0) || !(upperbound.compareTo(BigInteger.ZERO)==0))
 		{
-			lowerbound = in.nextLong();
-			upperbound = in.nextLong();
 			
-			if(lowerbound == 0 || upperbound == 0)
-				break;
-			
-			long fibcounter;
-			out.println(startfib(0,lowerbound,upperbound,1,1,0,0));
-			
+		
+				String fibb = ""+startfib(BigInteger.ZERO,lowerbound,upperbound,BigInteger.ONE,BigInteger.ONE,BigInteger.ZERO,BigInteger.ZERO);
+				out.println(fibb);
+				lowerbound = BigInteger.valueOf(in.nextLong());
+				upperbound = BigInteger.valueOf(in.nextLong());				
 		}
 	}
 	
-	public static long startfib(long truecount,long stcount, long stpcount, long currcount,long currentfib,long prev1, long prev2 )
-	{	
-		if(currcount < 2)
-		{	currcount++;
-			currentfib = 1;
-			prev1 = 1;
-			prev2 = 1;
+	public static BigInteger startfib(BigInteger truecount, BigInteger stcount, BigInteger stpcount, BigInteger currcount, BigInteger currentfib,BigInteger prev1, BigInteger prev2 )
+	{	if(stcount.equals(0)|| stpcount.equals(0))
+			return BigInteger.valueOf(-5);
+		if(currcount.compareTo(BigInteger.valueOf(2)) < 0)
+		{	currcount = currcount.add(BigInteger.ONE); 
+			currentfib =  BigInteger.ONE;
+			prev1 =  BigInteger.ONE;
+			prev2 =  BigInteger.ONE;
 		}
-		if(currcount>=2)
+		if(currcount.compareTo(BigInteger.valueOf(2))>=0)
 		{
-			currcount++;
-			long tprev1 = currentfib;
-			currentfib=prev1+prev2;
+			currcount = currcount.add(BigInteger.ONE);
+			BigInteger tprev1 = currentfib;
+			currentfib=prev1.add(prev2);
 			prev1= currentfib;
 			prev2 = tprev1;
+			
 		}
-		if(currentfib>=stcount && currentfib<=stpcount)
+		if(currentfib.compareTo(stcount)>=0 && currentfib.compareTo(stpcount)<=0)
 		{
-			truecount++;
+			truecount = truecount.add(BigInteger.ONE);
 		}
-		if(currentfib>=stpcount)
+		if(currentfib.compareTo(stpcount)>=0)
 		{
 			return truecount;
 		}
