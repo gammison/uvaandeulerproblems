@@ -17,7 +17,7 @@ public class HowManyFibs {
 		{
 			
 		
-				String fibb = ""+startfib(BigInteger.ZERO,lowerbound,upperbound,BigInteger.ONE,BigInteger.ONE,BigInteger.ZERO,BigInteger.ZERO);
+				String fibb = ""+startfib(BigInteger.ZERO,lowerbound,upperbound,BigInteger.ZERO,BigInteger.ZERO,BigInteger.ZERO,BigInteger.ZERO);
 				out.println(fibb);
 				lowerbound = BigInteger.valueOf(in.nextLong());
 				upperbound = BigInteger.valueOf(in.nextLong());				
@@ -25,8 +25,12 @@ public class HowManyFibs {
 	}
 	
 	public static BigInteger startfib(BigInteger truecount, BigInteger stcount, BigInteger stpcount, BigInteger currcount, BigInteger currentfib,BigInteger prev1, BigInteger prev2 )
-	{	if(stcount.equals(0)|| stpcount.equals(0))
-			return BigInteger.valueOf(-5);
+	{	
+		if(currentfib.compareTo(stpcount)>=0)
+		{
+		return truecount;
+		}
+	
 		if(currcount.compareTo(BigInteger.valueOf(2)) < 0)
 		{	currcount = currcount.add(BigInteger.ONE); 
 			currentfib =  BigInteger.ONE;
@@ -46,12 +50,8 @@ public class HowManyFibs {
 		{
 			truecount = truecount.add(BigInteger.ONE);
 		}
-		if(currentfib.compareTo(stpcount)>=0)
-		{
-			return truecount;
-		}
 		
-		else
+		
 			return startfib(truecount,stcount,stpcount,currcount,currentfib,prev1,prev2);
 		
 	}
