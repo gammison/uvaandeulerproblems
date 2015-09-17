@@ -10,8 +10,8 @@ public class HowManyFibs {
 		BigInteger lowerbound = new BigInteger(String.valueOf(-1));
 		BigInteger upperbound = new BigInteger(String.valueOf(-1));
 		
-		lowerbound = BigInteger.valueOf(in.nextLong());
-		upperbound = BigInteger.valueOf(in.nextLong());
+		lowerbound = new BigInteger(in.next());
+		upperbound = new BigInteger(in.next());
 		
 		while(!(lowerbound.compareTo(BigInteger.ZERO)==0) || !(upperbound.compareTo(BigInteger.ZERO)==0))
 		{
@@ -19,8 +19,8 @@ public class HowManyFibs {
 		
 				String fibb = ""+startfib(BigInteger.ZERO,lowerbound,upperbound,BigInteger.ZERO,BigInteger.ZERO,BigInteger.ZERO,BigInteger.ZERO);
 				out.println(fibb);
-				lowerbound = BigInteger.valueOf(in.nextLong());
-				upperbound = BigInteger.valueOf(in.nextLong());				
+				lowerbound = new BigInteger(in.next());
+				upperbound = new BigInteger(in.next());			
 		}
 	}
 	
