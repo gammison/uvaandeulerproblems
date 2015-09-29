@@ -14,35 +14,27 @@ public class Steps {
 		
 		for(int i = 0 ; i<tcases; i++)
 		{
-			int diff = Math.abs(in.nextInt()-in.nextInt());
 			
-			int startstep = 1;
-			int count = 0;
-			int toget =0;
-			while(diff>0)
-			{	
-
-				diff-=startstep;
-				count++;
+			
+			long startstep = 1;
+			long count = 0;
+			
+			long x = in.nextLong();
+			long y =in.nextLong();
+			while(x<y)
+			{	count++;
+				x+=startstep;
 				
-				if(diff>factorial(startstep+1))
-				{	startstep++;
-					
+				if(x<y)
+				{	count++;
+					y-=startstep;
 				}
-				else
-				{
-					if(startstep>1)
-						startstep--;	
-				}
-					
+		
+				startstep++;
+			
 			}
 			out.println(count);
 		}
 	}
-	public static long factorial(long num)
-	{
-		if(num == 1)
-			return num;
-		else return num*factorial(--num);
-	}
+
 }
