@@ -28,39 +28,61 @@ public class FarAbove {
 			
 			int ast = in.nextInt();
 			Point2D[] asts = new Point2D[ast];
-			
+			out.println(ast);
 			for(int i = 0; i<ast; i++)
-			{
-				asts[i].setLocation(in.nextInt(),in.nextInt());
+			{	int tx = in.nextInt(); int ty= in.nextInt();
+			
+				asts[i]= new Point2D.Double(tx,ty);
 			}
+			out.println("Case "+(a+1)+": "+getdasum(Integer.MAX_VALUE,0,asts,floyd,ship));
 			
 		}
 	}
 	//move to every valid point
-	private static int getdasum(int bigsum,int cursum, boolean canmove, point2D[] asts, Point2D floyd, Point2D ship,Point2D movingto)
+	private static int getdasum(int bigsum,int cursum, Point2D[] asts, Point2D floyd, Point2D ship)
 	{
 		if(floyd.equals(ship))
-		{
+		{	
 			return bigsum;
 		}
+		 
 		
-		if(!canmove)
-			break;
-		cursum+=move(currdir,floyd,asts);
+			
 		for(Point2D b : asts)
 		{	
-			floyd.setLocation()
-			getdasum(bigsum, cursum+move(floyd,b),canmove,asts)
+			if(floyd.getX()==ship.getX())
+			{	cursum+= floyd.distance(ship);
+				floyd.setLocation(floyd.getX(),ship.getY());
+				
+			}
+			else if (floyd.getY()==ship.getY())
+			{
+				cursum+=floyd.distance(ship);
+				floyd.setLocation(ship.getX(),floyd.getY());
+			}
+			if(floyd.equals(ship) && cursum <bigsum)
+			{
+				bigsum = cursum;
+			
+			}
+			if(!(floyd.getY()==ship.getY()) && !(floyd.getY()==ship.getY()))
+			{	if(floyd.getX() == b.getX()) // also put in check for ship
+				{	cursum+= floyd.distance(b);
+					floyd.setLocation(floyd.getX(),b.getY());
+					
+				}
+				else if(floyd.getY()==b.getY())
+				{	cursum+= floyd.distance(b);
+					floyd.setLocation(b.getX(), floyd.getY());
+					
+				}
+				
+			}
+			getdasum(bigsum, cursum,asts,floyd,ship);
 		}
 			
-		getdasum(bigsum,cursum)
 		
 	}
 	
-	
-	
-	private static int move(Point2D floyd, Point2D chosen)
-	{
-		return (int) floyd.distance(chosen);
-	}
+
 }
