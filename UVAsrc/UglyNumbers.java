@@ -12,16 +12,17 @@ public class UglyNumbers {
 		
 		while(ugc != 1500)
 		{
-			ArrayList<Integer> pfac = pfac(start);
+			/*ArrayList<Integer> pfac = pfac(start);
 			ArrayList<Integer> torem = new ArrayList<Integer>();
 			torem.add(2);torem.add(3); torem.add(5);
 			out.println(pfac);
 			pfac.removeAll(torem);
-			out.println(pfac);
+			out.println(pfac); */
 			
-			if(pfac.isEmpty())
+			
+			if(pfacc(start))
 			{
-				out.println(ugc++);
+				ugc++;
 			}
 			start++;
 		}
@@ -35,7 +36,7 @@ public class UglyNumbers {
 		int num = n;
 		int div = 2;
 		while(num>1)
-		{
+		{ 
 			while(num%div == 0)
 			{
 				pfactors.add(div);
@@ -44,5 +45,25 @@ public class UglyNumbers {
 			div++;
 		}
 		return pfactors;
+	}
+	// it should be 859963392
+	public static boolean pfacc(int n)
+	{
+		long num = n;
+		double div = (int)Math.sqrt(num);
+		while(num>1)
+		{ 
+			while(num%div == 0)
+			{
+				if(div%2 != 0 && div%5 != 0 && div%3!=0)
+				{
+					return false;
+				}
+				num/=div;
+			}
+			div--;
+		}
+		
+		return true;
 	}
 }
