@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+ import static java.lang.System.*;
  import java.io.*;
  import java.util.*;
  
@@ -11,6 +11,7 @@ import static java.lang.System.*;
  		while(in.hasNextLine())
  		{
  			long n = in.nextLong();
+ 			if(n == 0) break;
  			//find primes in each less n and start count
  			//out.println(pfacs(n));
  			ArrayList<Integer> factorial = pfacs(n);
