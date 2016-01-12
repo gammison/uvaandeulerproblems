@@ -12,12 +12,12 @@ import static java.lang.System.*;
  		{
  			long n = in.nextLong();
  			//find primes in each less n and start count
- 			out.println(pfacs(n));
+ 			//out.println(pfacs(n));
  			ArrayList<Integer> factorial = pfacs(n);
  			for(long i = n-1; i>1; i--)
  			{
  				ArrayList<Integer> temp = pfacs(i);
- 				out.println(pfacs(i));
+ 				//out.println(pfacs(i));
  				if(factorial.size()>=temp.size())
  				{	for(int a = 0; a<temp.size(); a++)
  					{
@@ -37,8 +37,8 @@ import static java.lang.System.*;
  	 					factorial.set(factorial.indexOf(x),factorial.get(factorial.indexOf(x)+temp.get(factorial.indexOf(x))));
  	 				}
  				}
- 				out.println(factorial);
- 			}
+ 				
+ 			}out.println(factorial.toString().replaceAll("[\\[\\]]|\\,0", "").replaceAll(",", "").replaceAll("0\\s", "").replaceAll("\\s0", ""));
  			
  		}
  	}
