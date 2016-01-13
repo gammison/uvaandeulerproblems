@@ -39,7 +39,7 @@
  	 				}
  				}
  				
- 			}out.println(factorial.toString().replaceAll("[\\[\\]]|\\,0", "").replaceAll(",", "").replaceAll("0\\s", "").replaceAll("\\s0", ""));
+ 			}out.println(n+"! = "+factorial.toString().replaceAll("[\\[\\]]|\\,0", "").replaceAll(",", "").replaceAll("0\\s", "").replaceAll("\\s0", ""));
  			
  		}
  	}
