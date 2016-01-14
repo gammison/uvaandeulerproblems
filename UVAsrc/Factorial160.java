@@ -1,6 +1,6 @@
- import static java.lang.System.*;
- import java.io.*;
- import java.util.*;
+import static java.lang.System.*;
+import java.io.*;
+import java.util.*;
  
  public class Factorial160
  {
@@ -15,10 +15,10 @@
  				break;
  			//find primes in each less n and start count
  			//out.println(pfacs(n));
- 			ArrayList<Integer> factorial = pfacs(n);
+ 			ArrayList<Long> factorial = pfacs(n);
  			for(long i = n-1; i>1; i--)
  			{
- 				ArrayList<Integer> temp = pfacs(i);
+ 				ArrayList<Long> temp = pfacs(i);
  				//out.println(pfacs(i));
  				if(factorial.size()>=temp.size())
  				{	for(int a = 0; a<temp.size(); a++)
@@ -32,11 +32,11 @@
  					}
  					while(factorial.size()!=temp.size())
  					{
- 						factorial.add(0);
+ 						factorial.add(0L);
  					}
- 					for(int x: factorial)
+ 					for(Long x: factorial)
  	 				{
- 	 					factorial.set(factorial.indexOf(x),factorial.get(factorial.indexOf(x)+temp.get(factorial.indexOf(x))));
+ 	 					factorial.set(factorial.indexOf(x),factorial.get((int) (factorial.indexOf(x)+temp.get(factorial.indexOf(x)))));
  	 				}
  				}
  				
@@ -44,24 +44,24 @@
  			while(n1.length()<3)
  			{
  				n1 = " "+n1;
- 			}dat = ""+n1+"! =";
+ 			}dat = ""+n1+"! =";// out.println(dat);
  			//out.print(n1+"! =");
- 			int cnt = 1; String[] nums = factorial.toString().replaceAll("[\\[\\]]|\\,0", "").replaceAll(",", "").replaceAll("0\\s", "").replaceAll("\\s0", "").split(" ");
- 			for(int x = 0; x<nums.length; x++)
- 			{	while(nums[x].length()<3)
- 					nums[x] =" "+nums[x];
+ 			long cnt = 1; String[] nums = factorial.toString().replaceAll("[\\[\\]]|\\,0", "").replaceAll(",", "").replaceAll("0\\s", "").replaceAll("\\s0", "").split(" ");
+ 			for(long x = 0; x<nums.length; x++)
+ 			{	while(nums[(int) x].length()<3)
+ 					nums[(int) x] =" "+nums[(int) x];
  				if(x+1-(15*cnt) <0)
- 					{	dat = dat +nums[x];
+ 					{	dat = dat +nums[(int) x];
  						//out.print(nums[x]+"");
  					}
  				else if(x+1-(15*cnt)<=0){
- 					dat = dat +nums[x];out.print(nums[x]);
+ 					dat = dat +nums[(int) x];//out.print(nums[x]);
  				}
  					
  				else if(x+1-(15*cnt) == 1)
  				{	cnt++;
  					//out.print("\n      "+nums[x]);
- 					dat = dat +"\n     "+nums[x];
+ 					dat = dat +"\n      "+nums[(int)x];
  				}
  			}
  			out.println(dat);
@@ -71,19 +71,19 @@
  		
  	}
  	
- 	public static ArrayList<Integer> pfacs(long n)
+ 	public static ArrayList<Long> pfacs(long n)
  	{	int div = 2;
- 		ArrayList<Integer> temp = new ArrayList<Integer>();
- 		int start = 0;
+ 		ArrayList<Long> temp = new ArrayList<Long>();
+ 		long start = 0;
  		while(n>1)
- 		{	int tcount = 0;
- 			temp.add(0);
+ 		{	long tcount = 0;
+ 			temp.add(0L);
  			while(n%div == 0)
  			{
  				tcount++ ;
  				n/=div;
  			}
- 			temp.add(start, tcount); start++;
+ 			temp.add((int)start, tcount); start++;
  			div++;
  		}
  		return temp;
