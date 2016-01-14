@@ -1,5 +1,5 @@
 #UVA and Euler Problems
-uva online judge and project euler programming problems solved by me
+Solved UVA Online Judge and Project Euler Problems
 
 ##Current Solved Problems
 ###**UVA**
