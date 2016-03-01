@@ -34,4 +34,5 @@ Solved UVA Online Judge and Project Euler Problems
   8  | [Adjacent Digits](https://projecteuler.net/problem=8)
   9  | [Pythagorean Triples](https://projecteuler.net/problem=9)
   10 | [Summation of Primes](https://projecteuler.net/problem=10)
+  14 | [Largest Collatz Sequence](https://projecteuler.net/problem=14)
   20 | [Factorial Digit Sum](https://projecteuler.net/problem=20)
