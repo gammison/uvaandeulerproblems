@@ -36,3 +36,4 @@ Solved UVA Online Judge and Project Euler Problems
   10 | [Summation of Primes](https://projecteuler.net/problem=10)
   14 | [Largest Collatz Sequence](https://projecteuler.net/problem=14)
   20 | [Factorial Digit Sum](https://projecteuler.net/problem=20)
+  34 | [Sum of Factorial Digits](https://projecteuler.net/problem=34)
