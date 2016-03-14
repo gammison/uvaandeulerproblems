@@ -1,0 +1,63 @@
+import java.util.*;
+import static java.lang.System.*;
+
+public class CircularPrimes35 {
+	public static boolean[] primep;
+	public static void main(String[] args) 
+	{
+		boolean[] primes = new boolean[1000001];
+		Arrays.fill(primes, true);
+		primes[0]=false;
+		primes[1] =false;
+		for(int i = 2; i*i<primes.length; i++)
+		{
+			if(primes[i])
+			{
+				for(int a = i; a*i <primes.length; a++)
+				{
+					primes[a*i] =false;
+				}
+			}
+		}
+		int sum = 0;
+		primep=primes;
+		for(int w = 0 ; w<1000; w++)
+		{	out.println(w +" "+ primes[w]);
+			if(iscirc(w))
+			{	out.println(w);
+				sum++;
+			}
+		}
+		out.println(sum);
+		
+	}
+	public static String tempe;
+	public static boolean iscirc(int p)
+	{	
+		
+		String x = ""+p;
+		for(int a = 0; a<x.length(); a++)
+		{
+			tempe = "";
+			int tempee = 0;
+			int b = a;
+			while(tempee!=tempe.length())
+			{	tempee++;
+				tempe+=x.charAt(b);
+				b++;
+				if(b==x.length())
+				{
+					b=0;
+				}
+			}
+			out.print(tempe+" the fuck ");
+			if(!primep[Integer.parseInt(tempe)])
+			{
+				return false;
+			}
+			
+		}
+		out.println();
+		return true;
+	}
+}
