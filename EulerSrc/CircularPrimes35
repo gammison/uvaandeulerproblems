@@ -21,10 +21,10 @@ public class CircularPrimes35 {
 		}
 		int sum = 0;
 		primep=primes;
-		for(int w = 0 ; w<1000; w++)
+		for(int w = 0 ; w<primes.length; w++)
 		{	out.println(w +" "+ primes[w]);
 			if(iscirc(w))
-			{	out.println(w);
+			{	//out.println(w);
 				sum++;
 			}
 		}
@@ -41,7 +41,7 @@ public class CircularPrimes35 {
 			tempe = "";
 			int tempee = 0;
 			int b = a;
-			while(tempee!=tempe.length())
+			while(tempee!=x.length())
 			{	tempee++;
 				tempe+=x.charAt(b);
 				b++;
@@ -50,14 +50,14 @@ public class CircularPrimes35 {
 					b=0;
 				}
 			}
-			out.print(tempe+" the fuck ");
+			
 			if(!primep[Integer.parseInt(tempe)])
 			{
 				return false;
 			}
 			
 		}
-		out.println();
+		//out.println();
 		return true;
 	}
 }
