@@ -39,3 +39,4 @@ Solved UVA Online Judge and Project Euler Problems
   20 | [Factorial Digit Sum](https://projecteuler.net/problem=20)
   34 | [Sum of Factorial Digits](https://projecteuler.net/problem=34)
   35 | [Circular Primes](https://projecteuler.net/problem=35)
+  48 | [Self Powers](https://projecteuler.net/problem=48)
