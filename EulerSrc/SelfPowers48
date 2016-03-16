@@ -1,0 +1,30 @@
+import java.util.*;
+import static java.lang.System.*;
+import java.io.*;
+
+public class SelfPowers48 {
+	public static boolean[] primep;
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		long temp = 0;
+		long large = in.nextLong();
+		long result = 0;
+		long modulus = 10000000000L; //will cut off everything but the last 10 digits
+		for(int i = 1; i<=large; i++)
+		{
+			temp = i;
+			for(int a = 1; a<i; a++)
+			{
+				temp*=i;
+				temp%=modulus;
+			}
+			
+			result+=temp;
+			result%=modulus;
+		}
+		out.println(result);
+	}
+	
+
+}
