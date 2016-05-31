@@ -19,6 +19,7 @@ Solved UVA Online Judge and Project Euler Problems
   10611 | [The Playboy Chimp](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
   10189 | [Minesweeper](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)
   11172 | [Relational Operators](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2113)
+  11498 | [Nlogonia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2493)
   11727 | [Cost Cutting](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2827)
 
 
