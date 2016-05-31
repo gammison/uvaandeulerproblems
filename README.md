@@ -22,6 +22,7 @@ Solved UVA Online Judge and Project Euler Problems
   [11172](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/RelationalOperators.java) | [Relational Operators](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2113)
   [11498](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11498.cpp) | [Nlogonia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2493)
   [11727](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11727.cpp) | [Cost Cutting](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2827)
+  [11799](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11799.cpp) | [Horror Dash](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2899)
 
 
 ###**Euler**
