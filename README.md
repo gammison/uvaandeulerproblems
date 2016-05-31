@@ -7,21 +7,21 @@ Solved UVA Online Judge and Project Euler Problems
 
   Problem ID  | Problem Name
   :------------- | :-------------:
-  100  | [The 3n + 1 problem](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36)
-  160 | [Factors and Factorials](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=96)
-  272 | [TEX Quotes](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=208)
-  495 | [Fibonacci Freeze](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=436)
-  846 | [Steps](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=787)
-  10018 | [Reverse and Add](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=959)
-  10071 | [Back to High School Physics](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012)
-  10183 | [How Many Fibs](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1124)
-  10252  | [Common Permutation](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193)
-  10487 | [Closest Sums](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1428)
-  10611 | [The Playboy Chimp](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
+  [100](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ThreeNPlusOne.java)  | [The 3n + 1 problem](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36)
+  [160](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/Factorial160.java) | [Factors and Factorials](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=96)
+  [272](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/272.cpp) | [TEX Quotes](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=208)
+  [495](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/uva495.java) | [Fibonacci Freeze](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=436)
+  [846](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/Steps.java) | [Steps](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=787)
+  [10018](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ReverseAndAdd.java) | [Reverse and Add](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=959)
+  [10071](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/physics.cpp) | [Back to High School Physics](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012)
+  [10183](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/HowManyFibs.java) | [How Many Fibs](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1124)
+  [10252](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/commonperm10252.java)  | [Common Permutation](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193)
+  [10487](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ClosestSums.java) | [Closest Sums](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1428)
+  [10611](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ThePlayBoyChimp.java) | [The Playboy Chimp](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
   10189 | [Minesweeper](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)
-  11172 | [Relational Operators](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2113)
-  11498 | [Nlogonia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2493)
-  11727 | [Cost Cutting](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2827)
+  [11172](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/RelationalOperators.java) | [Relational Operators](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2113)
+  [11498](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11498.cpp) | [Nlogonia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2493)
+  [11727](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11727.cpp) | [Cost Cutting](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2827)
 
 
 ###**Euler**
