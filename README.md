@@ -19,6 +19,7 @@ Solved UVA Online Judge and Project Euler Problems
   [10487](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ClosestSums.java) | [Closest Sums](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1428)
   [10611](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ThePlayBoyChimp.java) | [The Playboy Chimp](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1552)
   10189 | [Minesweeper](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)
+  [10812](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/10812.cpp) | [Beat The Spread!](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1753)
   [11172](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/RelationalOperators.java) | [Relational Operators](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2113)
   [11498](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11498.cpp) | [Nlogonia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2493)
   [11727](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11727.cpp) | [Cost Cutting](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2827)
