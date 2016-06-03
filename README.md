@@ -1,11 +1,13 @@
 #UVA and Euler Problems
-Solved UVA Online Judge and Project Euler Problems
+This repository contains solutions to my currently solved UVA and Project Euler problems.
+The problem ID links to the source file on Github and the problem name links to the problem on UVA
 
 ##Current Solved Problems
 ###**UVA**
 
 
-  Problem ID  | Problem Name
+
+  Problem ID | Problem Name
   :------------- | :-------------:
   [100](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ThreeNPlusOne.java)  | [The 3n + 1 problem](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36)
   [102](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/BinPacking102.java) | [Ecological Bin Packing](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=38)
