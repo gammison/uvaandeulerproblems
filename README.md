@@ -8,6 +8,7 @@ Solved UVA Online Judge and Project Euler Problems
   Problem ID  | Problem Name
   :------------- | :-------------:
   [100](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/ThreeNPlusOne.java)  | [The 3n + 1 problem](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36)
+  [102](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/BinPacking102.java) | [Ecological Bin Packing](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=38)
   [160](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/Factorial160.java) | [Factors and Factorials](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=96)
   [272](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/272.cpp) | [TEX Quotes](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=208)
   [495](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/uva495.java) | [Fibonacci Freeze](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=436)
