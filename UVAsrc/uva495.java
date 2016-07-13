@@ -17,3 +17,38 @@ public class uva495{
 		}
 	}
 }
+/* Alternate
+//different quick ways of calculating fibonacci numbers
+import java.util.*;
+import static java.lang.System.*;
+import java.io.*;
+import java.math.BigInteger;
+
+public class QuickFib {
+	private static  HashMap<BigInteger,BigInteger> fibs = new HashMap<BigInteger,BigInteger>();
+	
+	
+	
+	public static void main(String[] args) throws IOException{
+		fibs.put(BigInteger.ZERO,BigInteger.ZERO); fibs.put(BigInteger.ONE,BigInteger.ONE);
+		Scanner in = new Scanner(System.in);
+		
+		
+		while(in.hasNext()){
+			
+			BigInteger temp = new BigInteger(in.next());
+			out.println("The Fibonacci number for "+temp.toString()+" is "+getfib(temp).toString());
+			
+		}
+		System.exit(0);
+	}
+	
+	public static BigInteger getfib(BigInteger ind){
+		if(!fibs.containsKey(ind)){
+			fibs.put(ind, getfib(ind.subtract(BigInteger.ONE)).add(getfib(ind.subtract(BigInteger.ONE.add(BigInteger.ONE)))));
+		}
+		return fibs.get(ind);
+	
+	}
+}
+*/
