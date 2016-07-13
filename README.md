@@ -30,6 +30,7 @@ The problem ID links to the source file on Github and the problem name links to 
   [11498](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11498.cpp) | [Nlogonia](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2493)
   [11727](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11727.cpp) | [Cost Cutting](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2827)
   [11799](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/11799.cpp) | [Horror Dash](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2899)
+  [11559](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/EventPlanning11559.java) | [Event Planning](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2595)
 
 
 ###**Euler**
