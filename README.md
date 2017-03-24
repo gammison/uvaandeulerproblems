@@ -1,9 +1,9 @@
-#UVA and Euler Problems
+# UVA and Euler Problems
 This repository contains solutions to my currently solved UVA and Project Euler problems.
 The problem ID links to the source file on Github and the problem name links to the problem on UVA
 
-##Current Solved Problems
-###**UVA**
+## Current Solved Problems
+### **UVA**
 
 
 
@@ -33,7 +33,7 @@ The problem ID links to the source file on Github and the problem name links to 
   [11559](https://github.com/gammison/uvaandeulerproblems/blob/master/UVAsrc/EventPlanning11559.java) | [Event Planning](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2595)
 
 
-###**Euler**
+### **Euler**
 
   Problem ID  | Problem Name
   :------------- | :-------------:
